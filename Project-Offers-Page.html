@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Day Trip - Misty Escapade Package - The Hidden Castle</title>
+  </head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Pattaya&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+  body{
+    background-color: #fcf1e3;
+    overflow-x: hidden;
+  }
+  .left-top-Container-1
+  {
+    width:720px;
+    height:950px;
+    margin-left:100px;
+    margin-top:60px;
+  }
+  .Middle-Conatier-2
+  {
+    margin-left: 100px;
+    width: 1080px;
+  }
+  .Left-Container-Image
+  {
+    border-radius: 25px;
+  }
+  .Right-Top-Container-1
+  {
+    position: absolute;
+    width:400px;
+    left: 850px;
+    top:200px;
+    height:1030px;
+  }
+  .text-alignment
+  {
+    text-align: center;
+
+  }
+  .font-green
+  {
+    color:#003820;
+    font-size: 20px;
+    line-height: 25px;
+    font-family: "Newsreader", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .font-black
+  {
+    color:black;
+    font-family: "Newsreader", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .font-white
+  {
+    color:white;
+    font-family: "Newsreader", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .left-top-Container-1-sub-1
+  {
+    display: flex;
+  }
+  .Timings-Container
+  {
+    width:130px;
+    height:50px;
+    margin-left: 150px;
+    font-family: "Newsreader", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color:#7A7A7A;
+    line-height: 25px;
+
+  }
+  .ul>li
+  {
+    margin-top:5px;
+    font-size: 18px;
+    font-family: "Newsreader", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color:#7A7A7A;
+  }
+  .table-heading
+  {
+    text-align: center;
+    font-weight: 600;
+  }
+  .Pictures-offers-page-1
+  {
+    border:none;
+    border-top-left-radius: 200px;
+    border-top-right-radius: 200px;
+    height: 240px;
+    width: 180px;
+  }
+  .Pictures-Container-1
+  {
+    display: flex;
+  }
+  .Pictures-Container-1>figure
+  {
+    margin-left: 0px;
+  }
+  figcaption
+  {
+    font-style: italic;
+    text-align: center;
+    font-size: 19px;
+    color: #434241;
+  }
+  .fa-circle-dot
+  {
+    color:#b2aea7;
+    font-size: 10px;
+  }
+  .Bottom-Conatier-3
+  {
+    margin-left:100px;
+  }
+  .Bottom-Conatier-3-sub-2
+  {
+    position: absolute;
+    left:730px;
+    top:1540px;
+  }
+ 
+  li
+  {
+    font-size: 17px;
+  }
+  .Instant-Booking-Button{
+    background-color: #C8693A;
+    color:white;
+    width: 250px;
+    padding:15px;
+    margin-left:80px;
+    font-family: "Newsreader", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    border: none;
+    letter-spacing: 5px;
+  }
+  .Right-Container-Form
+  {
+    display: flex;
+    background-color: #003820;
+    padding: 30px;
+    position: sticky;
+    top: 90px;
+    color:white;
+    border-radius: 30px;
+    font-family: "Newsreader", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    z-index: 99;
+  }
+  input
+  {
+     width:300px;
+     padding: 20px;
+     border-radius: 10px;
+     margin-top: 10px;
+     font-family: "Newsreader", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color:#7A7A7A;
+
+  }
+
+  .Button-Form
+  {
+    width:340px;
+    padding:15px;
+    margin-top:20px;
+    border-radius: 15px;
+    background-color: #C8693A;
+    border: none;
+    color: white;
+    font-weight: 700;
+    font-family: "Newsreader", serif;
+    font-optical-sizing: auto;
+  
+    font-style: normal;
+
+  }
+  .home-top-nav {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #003820;
+    color: white;
+    height: 60px;
+    padding-left: 10px ;
+    justify-content: center;
+    align-items: center;
+    position:sticky;
+    top:0;
+}
+.home-top-nav ul {
+    list-style-type: none;
+    display: flex;
+}
+.home-top-nav a{
+   padding:40px;
+    text-decoration:none;
+    font-weight: 500;
+    color: white;
+}
+.fa-angle-down{
+  color: #7A7A7A;
+}
+.Button {
+  font-size: 12px;
+  padding: 1em 2.7em;
+  font-weight: 400;
+  height: 40px;
+  background: #C8693A;
+  width: 150px;
+  letter-spacing: 3px;
+  color: white;
+  font-family: "Newsreader", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  border: none;
+  cursor: pointer;
+  margin-top: -20px;
+}
+.div-end-home{
+   
+  height: 350px;
+  margin-top: 80px;
+  background-color: #003820; 
+}
+.div-end-home div{
+  display: flex;
+  justify-content: center;
+
+}
+
+.div-end-home td{
+  padding:10px;
+  font-family: "Newsreader", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  color:white;
+  font-size:18px;
+  padding: 40px;
+  
+}
+.fa-facebook-f{
+  color: white;
+}
+.fa-facebook-f:hover{
+  color:#8B5832;
+}
+.fa-instagram{
+  color: white;
+}
+.fa-instagram:hover{
+  color:#8B5832;
+}
+.fa-leaf{
+  color: white;
+}.fa-leaf:hover{
+  color:#8B5832;
+}
+.home-end{
+  color: white;
+  font-family: "Newsreader", serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size:14px;
+  text-align: center;
+}
+.fall{
+  font-weight: 400;
+}
+.fall:hover
+{
+  color:#8B5832;
+}
+.Footer-Content
+{
+  line-height: 30px;
+  font-weight: 400;
+}
+.Last-Container-4-Sub-1
+{
+  width:400px;
+}
+.Last-Container-4-Sub-2
+{
+  position: absolute;
+  left: 500px;
+  top: 1800px;
+}
+.Circel-dot
+  {
+    list-style-type: none;
+  }
+  .Circel-dot>li
+  {
+    margin-top: 10px;
+    font-family: "Newsreader", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color:#7A7A7A;
+  }
+.home-ul
+{
+  display: flex;
+  align-items: center;
+}
+.nav-item
+{
+  list-style-type: none;
+  margin-left: 70px;
+}
+.nav-item>a
+{
+  text-decoration: none;
+  font-family: "Newsreader", serif;
+  font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    color:#54595f;
+}
+.dropdown>li>a
+{
+  text-decoration: none;
+  font-family: "Newsreader", serif;
+  font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    color:#54595F;
+    box-sizing: border-box;
+    margin-left: -37px;
+    padding: 10px;
+}
+.dropdown>li
+{
+  list-style-type: none;
+  align-items: center;
+  padding: 20px;
+}
+.dropdown
+{
+  position: absolute;
+  display: none;
+  background-color: white;
+  color: black;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  height: 120px;
+}
+.nav-item_list:hover .dropdown
+{
+  display: block;
+}
+.home-nav2
+{
+  margin-top:-10px;
+  background-color:#FFF5E6 ;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top:0px;
+  z-index: 100;
+}
+.dropdown a:hover 
+{
+  color:#C8693A;
+}
+
+  </style>
+  <body>
+    <div>
+      <nav class="home-top-nav">
+          <ul>
+              <li>OUR CONTACT NUMBERS:</li>
+              <li><a href="">+91 9821573537 (IVR)</a></li>
+              <li><a href="">+91 7997951250</a></li>
+              <li><a href="">+91 7043105310</a></li>
+              <li><a href="">+91 8096951618 (WhatsApp)</a></li>
+          </ul>
+      </nav>
+    </div>
+      <nav class="home-nav2">
+        <ul class="home-ul">
+          <li class="nav-item"><img src="https://thehiddencastle.in/wp-content/uploads/2022/11/THC_Logo.png" alt="logo" height="80" width="100" class="img"></li>
+          <li class="nav-item"><a href="index.html">HOME</a></li>
+          <li class="nav-item nav-item_list"><a href=""> STAY@ THC <i class="fa-solid fa-angle-down"></i></a>
+            <ul class="dropdown">
+              <li><a href="normal.html">NORMAL ROOMS</a></li>
+              <li><a href="luxury.html">LUXURY ROOMS</a></li>
+            </ul>
+          </li>
+          <li class="nav-item nav-item_list"><a href="">OFFERS<i class="fa-solid fa-angle-down"></i></a>
+            <ul class="dropdown">
+              <li><a href="Project-Offers-Page.html">MISTY ESCAPADE</a></li>
+              <li><a href="Project-Offers-Page-2.html">STUDENT OFFERS!</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a href="howtoreach.html">HOW TO REACH</a></li>
+          <li class="nav-item"><a href="contactus.html">CONTACT US</a></li>
+          <li class="nav-item">
+            <a href="daytrip.html"><button class="Button">DAY TRIP</button></a>
+          </li>
+  </ul>
+      </nav>
+    <div class="left-top-Container-1">
+      <img src="Offer-Page-Imge-1.png" height="350px" width="720px" class="Left-Container-Image">
+      <div Class="left-top-Container-1-sub-1">
+        <h1 class="font-black">Misty Escapade Day Trip</h1>
+        <h3 class="Timings-Container">Trip Timings:
+          10 AM - 6 PM
+          or 2PM-10 PM</h3>
+      </div>
+      <div>
+        <img src="Divider-2.png">
+        <p class="font-green">Step into the enchanting world of our Misty Escapade day trip at The Hidden Castle. Wander through the misty landscapes, take on exhilarating challenges like the zip-line and commando net, and unwind in the serene aqua circuit. With cozy fire-lit dining, scenic views, and adventure around every corner, every moment is crafted to captivate. Join us for an unforgettable escape into winter’s magic at The Hidden Castle!</p>
+      </div>
+      <div class="left-top-Container-1-sub-2">
+        <table class="left-Container-1-table-1"         cellpadding="10px" cellspacing="10px";>
+          <tr>
+            <td colspan="3" class="table-heading"><h1 class="font-black">Sumptuous Spread</h1>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <ul class="ul">
+                <li>Veg Soup</li>
+                <li>Non Veg Soup</li>
+                <li>Salad</li>
+                <li>1 Veg Starter</li>
+                <li>1 Paneer Dish</li>
+                <li>Non Veg Dish</li>
+              </ul>
+            </td>
+            <td>
+              <ul class="ul">
+                <li>2 Non Veg Main Course</li>
+                <li>2 Veg Main Course</li>
+                <li>Noodles</li>
+                <li>Flavored rice</li>
+                <li>Steam rice</li>
+                <li>Dal</li>
+              </ul>
+            </td>
+            <td>
+              <ul class="ul">
+                <li>Sambar</li>
+                <li>Curd</li>
+                <li>Papad</li>
+                <li>Pickle</li>
+                <li>1 Sweet (Live Counter)</li>
+                <li>1 Ice Cream</li>
+              </ul>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <div class="Right-Top-Container-1">
+      <h2 class="font-black text-alignment">For Instant Booking click below</h2>
+      <button class="Instant-Booking-Button">INSTANT BOOKING</button>
+      <br>
+      <br>
+      <br>
+      <h2 class="font-black text-alignment">To request a call back from our sales team, fill the form below</h2>
+      <div class="Right-Container-Form">
+        <form>
+          <label>Booking Date</label>
+          <input placeholder="Select check-in Date" type="date">
+          <br>
+          <br>
+          <label>Persons</label><br>
+          <input placeholder="Enter Number Persons" type="number">
+          <br>
+          <br>
+          <label>Name</label><br>
+          <input placeholder="Enter Your name" type="text">
+          <br>
+          <br>
+          <label>Mobile Number</label><br>
+          <input placeholder="Enter your Mobile Number" type="tel">
+          <br>
+          <br>
+          <button class="Button-Form">Enquire Now</button>
+        </form>
+      </div>
+    </div>
+    <div class="Middle-Conatier-2">
+      <h1 class="font-black" style="text-align: center;">Activities Galore</h1>
+      <div class="Pictures-Container-1">
+        <figure>
+          <img src="Picture-1.jpg" class="Pictures-offers-page-1">
+          <figcaption>Cycling</figcaption>
+        </figure>
+        <figure>
+          <img src="Picture-2.jpg" class="Pictures-offers-page-1">
+          <figcaption>Magic Show</figcaption>
+        </figure>
+        <figure>
+          <img src="Picture-3.jpg" class="Pictures-offers-page-1">
+          <figcaption>Mini Tunnel</figcaption>
+        </figure> 
+        <figure>
+          <img src="Picture-4.jpg" class="Pictures-offers-page-1">
+          <figcaption>Rain Dance</figcaption>
+        </figure>
+        <figure>
+          <img src="Picture-5.jpg" class="Pictures-offers-page-1">
+          <figcaption>Archary</figcaption>
+        </figure>
+      </div>
+    </div>
+    <div class="Bottom-Conatier-3">
+      <div class="Bottom-Conatier-3-sub-1">
+        <h2 class="font-black">What's Included</h2>
+        <ul class="Circel-dot">
+            <li><i class="fa-regular fa-circle-dot"></i>&nbsp Access to all rides and games</li>
+            <li><i class="fa-regular fa-circle-dot"></i>&nbsp  Complimentary welcome drink,Lunch or dinner, high tea and one veg snack</li>
+            <li><i class="fa-regular fa-circle-dot"></i>&nbsp Rain dance</li>
+            <li><i class="fa-regular fa-circle-dot"></i>&nbsp Swimming Pool</li>
+            <li><i class="fa-regular fa-circle-dot"></i>&nbsp Aqua Safari</li>
+            <li><i class="fa-regular fa-circle-dot"></i>&nbsp Magic Show</li>
+            <li><i class="fa-regular fa-circle-dot"></i>&nbsp Museum and more...</li>
+        </ul>
+      </div>
+      <div class="Bottom-Conatier-3-sub-2">
+        <h2 class="font-black">Key Attractions</h2>
+        <ul class="Circel-dot">
+          <li><i class="fa-regular fa-circle-dot"></i>&nbsp;Palatial Castle</li>
+            <li><i class="fa-regular fa-circle-dot"></i>&nbsp; Breathtaking Views</li>
+            <li><i class="fa-regular fa-circle-dot"></i>&nbsp; Plethora of Activities</li>
+            <li><i class="fa-regular fa-circle-dot"></i>&nbsp; Aqua Sports</li>
+            <li><i class="fa-regular fa-circle-dot"></i>&nbsp; Adventure Circuit</li>
+            <li><i class="fa-regular fa-circle-dot"></i>&nbsp; Sumptuous Dining</li>
+        </ul>
+      </div>
+      <div class="Last-Container-4">
+        <div class="Last-Container-4-Sub-1">
+          <h2 class="font-black">What's Included</h2>
+          <ul class="Circel-dot">
+            <li><i class="fa-regular fa-circle-dot"></i>&nbsp Winter Special Bonfire, Dandiya & Music</li>
+            <li><i class="fa-regular fa-circle-dot"></i>&nbsp Access to all rides and games</li>
+            <li><i class="fa-regular fa-circle-dot"></i>&nbsp Complimentary welcome drink, lunch OR dinner, high tea and one veg snack</li>
+            <li><i class="fa-regular fa-circle-dot"></i>&nbsp;  Rain dance</li>
+            <li><i class="fa-regular fa-circle-dot"></i>&nbsp; Swimming Pool</li>
+            <li><i class="fa-regular fa-circle-dot"></i>&nbsp;  Aqua Safari</li>
+            <li><i class="fa-regular fa-circle-dot"></i>&nbsp;  Magic Show</li>
+            <li><i class="fa-regular fa-circle-dot"></i>&nbsp;  Museum and more...</li>
+          </ul>
+        </div>
+        <div class="Last-Container-4-Sub-2">
+          <h2 class="font-black">Leisure Activities near THC</h2>
+          <table>
+            <tr>
+              <td>
+                <ul class="Circel-dot">
+                  <li><img src="Dam-image-1.png">&nbsp;&nbsp;Mallanna Sagar Reservoir - 15 min</li>
+                  <li><img src="bridge_16107024.png" height="24px" width="24px">&nbsp;&nbsp;Komati Cheruvu Suspension Bridge - 36 min</li>
+                  <li><img src="Dam.png">&nbsp;&nbsp;Sri Ranganayaka Sagar Reservoir - 40 min</li>
+                  <li><img src="Temple_1.png">&nbsp;&nbsp;Sri Vidya Saraswati Shani Temple - 40 min</li>
+                  <li><img src="bridge_16107024.png" height="24px" width="24px">&nbsp;&nbsp;Kondapochamma Sagar Reservoir - 42 min</li>
+                </ul>
+              </td>
+              <td>
+                <ul class="Circel-dot">
+                  <li><img src="4.jpg">&nbsp;&nbsp;Kolanupaka Swetambar Temple - 70 min</li>
+                  <li><img src="Fort-image.png">&nbsp;&nbsp;Medak Fort - 105 min</li>
+                  <li><img src="Temple.png">&nbsp;&nbsp;Kakatiya Temple - 107 min</li>
+                  <li><img src="Chruch.png">&nbsp;&nbsp;Medak Church - 107 min</li>
+                  <li><img src="Fort-image.png">&nbsp;&nbsp;Khila Shapur Fort - 112 min</li>
+                </ul>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+  </body>
+  <footer style="background-color: #003820;">
+    <div class="div-end-home">
+      <div>
+        <table>
+          <tr>
+            <td>
+              <img src="https://thehiddencastle.in/wp-content/uploads/2022/11/Shield_Logo.png" width="120" height="150" alt="image">
+            </td>
+            <td class="Footer-Content">Welcome to The Hidden Castle, an imposing castle-themed <br>resort a one-hour’s smooth drive away from Hyderabad.<br> Sprawling majestically over 30 acres of untamed terrain, it is <br>just what adventure and nature lovers dream of.</td>
+            <td><b style="font-size: 22px;font-weight: 400;">Quick Links</b><br><br>
+            <div class="fall">Home</div><br>
+            <div class="fall">Day Trip</div><br>
+            <div class="fall">Contact Us</div><br>
+            <div class="fall">How to Reach</div></td>
+            <td style="font-size: 22px;font-weight: 400;">Follow us on <br>Social Media<br><br><a href="https://www.facebook.com/TheHiddenCastle"><i class="fa-brands fa-facebook-f"></i></a>&nbsp;&nbsp;&nbsp;<a href="https://www.instagram.com/thehiddencastlein/"><i class="fa-brands fa-instagram"></i></a>&nbsp;&nbsp;&nbsp;<a href="https://in.pinterest.com/thehiddencastle/"><i class="fa-solid fa-leaf"></i></a></td>
+          </tr>
+        </table>
+      </div>
+      <hr width="800px">
+      <p class="home-end">Copyright © 2015 – 2024 | The Hidden Castle | La McLean Hotels & Resorts Pvt. Ltd.</p>
+    </div>
+  </footer>
+
+</html>

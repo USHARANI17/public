@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Day Trip - Misty Escapade Package - The Hidden Castle</title>
+  </head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Pattaya&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<style>
+  body{
+    overflow-x: hidden;
+    padding: 0%;
+    margin: 0%;
+
+  }
+ 
+    .home-top-nav {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #003820;
+    color: white;
+    height: 60px;
+    padding-left: 10px ;
+    justify-content: center;
+    align-items: center;
+    position:sticky;
+    top:0;
+}
+.home-top-nav ul {
+    list-style-type: none;
+    display: flex;
+}
+.home-top-nav a{
+   padding:40px;
+    text-decoration:none;
+    font-weight: 500;
+    color: white;
+}
+.home-ul
+{
+  display: flex;
+  align-items: center;
+}
+.nav-item
+{
+  list-style-type: none;
+  margin-left: 70px;
+}
+.nav-item>a
+{
+  text-decoration: none;
+  font-family: "Newsreader", serif;
+  font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    color:#54595f;
+}
+.dropdown>li>a
+{
+  text-decoration: none;
+  font-family: "Newsreader", serif;
+  font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    color:#54595F;
+    box-sizing: border-box;
+    margin-left: -37px;
+    padding: 10px;
+}
+.dropdown>li
+{
+  list-style-type: none;
+  align-items: center;
+  padding: 20px;
+}
+.dropdown
+{
+  position: absolute;
+  display: none;
+  background-color: white;
+  color: black;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  height: 120px;
+}
+.nav-item_list:hover .dropdown
+{
+  display: block;
+}
+.home-nav2
+{
+  margin-top:-10px;
+  background-color:#FFF5E6 ;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top:0px;
+  z-index: 100;
+}
+.dropdown a:hover 
+{
+  color:#C8693A;
+}
+.Button {
+  font-size: 12px;
+  padding: 1em 2.7em;
+  font-weight: 400;
+  height: 40px;
+  background: #C8693A;
+  width: 150px;
+  letter-spacing: 3px;
+  color: white;
+  font-family: "Newsreader", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  border: none;
+  cursor: pointer;
+  margin-top: -20px;
+}
+.div-end-home{
+   
+   height: 350px;
+   margin-top: 80px;
+   background-color: #003820; 
+ }
+ .div-end-home div{
+   display: flex;
+   justify-content: center;
+ 
+ }
+ 
+ .div-end-home td{
+   padding:10px;
+   font-family: "Newsreader", serif;
+   font-optical-sizing: auto;
+   font-weight: 300;
+   font-style: normal;
+   color:white;
+   font-size:18px;
+   padding: 40px;
+   
+ }
+ .Footer-Content
+{
+  line-height: 30px;
+  font-weight: 400;
+}
+.fall{
+  font-weight: 400;
+}
+.fall:hover
+{
+  color:#8B5832;
+}
+.fa-facebook-f{
+  color: white;
+}
+.fa-facebook-f:hover{
+  color:#8B5832;
+}
+.fa-instagram{
+  color: white;
+}
+.fa-instagram:hover{
+  color:#8B5832;
+}
+.fa-leaf{
+  color: white;
+}.fa-leaf:hover{
+  color:#8B5832;
+}
+.home-end{
+  color: white;
+  font-family: "Newsreader", serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size:14px;
+  text-align: center;
+}
+.font-green
+  {
+    color:#003820;
+    font-size: 20px;
+    line-height: 25px;
+    font-family: "Newsreader", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .font-black
+  {
+    color:black;
+    font-family: "Newsreader", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .font-white
+  {
+    color:white;
+    font-family: "Newsreader", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .Bottom-Conatier-3
+  {
+    margin-top:130px;
+    margin-left:150px;
+  }
+  .Bottom-Conatier-3-sub-2
+  {
+    margin-left: 400px;
+    margin-top:-270px;
+    
+  }
+  .Bottom-Conatier-3-sub-1
+  {
+    width:400px;
+   
+  }
+  .Circel-dot
+  {
+    list-style-type: none;
+  }
+  .Circel-dot>li
+  {
+    margin-top: 10px;
+    font-family: "Newsreader", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color:#54595f;
+    font-size: 18px;
+  }
+  .fa-circle-dot
+  {
+    color: #C8693A;
+    font-size: 10px;
+  }
+  .Bottom-Conatier-3-sub-3
+  {
+    width:370px;
+    margin-left: 650px;
+    margin-top:-230px;
+  }
+  .Pictures-offers-page-1
+  {
+    border:none;
+    border-top-left-radius: 200px;
+    border-top-right-radius: 200px;
+    height: 240px;
+    width: 180px;
+  }
+  .Pictures-Container-1
+  {
+    display: flex;
+  }
+  .Pictures-Container-1>figure
+  {
+    margin-left: 0px;
+  }
+  figcaption
+  {
+    font-style: italic;
+    text-align: center;
+    font-size: 19px;
+    color: #434241;
+  }
+  .Middle-Conatier-2
+  {
+    margin-left: 150px;
+    width: 1080px;
+    margin-top: 100px;
+  }
+  body{
+    background-color: #fcf1e3;
+  }
+  .Middle-Conatier-2-0
+  {
+    margin-left: 150px;
+    width: 1080px;
+  }
+  .Middle-Conatier-2-0>h2
+  {
+    text-align: center;
+    font-family: "Newsreader", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color:black;
+    font-size: 28px;
+
+  }
+  Summary
+  {
+    color: white;
+    background-color: #003820;
+    padding: 20px;
+  }
+  .Top-Container-1
+  {
+    margin-left:100px;
+    width: 1080px;
+    margin-top:100px;
+  }
+  .Top-Container-1>h1
+  {
+    text-align: center;
+    font-family: "Newsreader", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color:black;
+    font-size: 36px;
+
+  }
+  .Top-Container-1>h3
+  {
+    text-align: center;
+    font-family: "Newsreader", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color:black;
+    font-size: 22px;
+  }
+  .Top-Container-1>img
+  {
+    align-items: center;
+    margin-left: 530px;
+  }
+  .Top-Container-1-1-sub-1
+  {
+    margin-left: 120px;
+  }
+  .Top-Container-1-1-sub-2
+  {
+    margin-left: 120px;
+  }
+  .Top-Container-1-1-sub-2>h2
+  {
+    font-family: "Newsreader", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color:black;
+    font-size: 36px;
+    
+  }
+  .Top-Container-1-1-sub-2>h3
+  {
+    text-align: center;
+    font-family: "Newsreader", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color:#54595F;
+    font-size: 20px;
+    width: 200px;
+    margin-left: 500px;
+    margin-top: -60px;
+  }
+  .Top-Container-1-1-sub-2>p
+  {
+    width: 700px;
+    line-height: 25px;
+  }
+  .Button-Form
+  {
+    width:340px;
+    padding:15px;
+    margin-top:20px;
+    border-radius: 15px;
+    background-color: #C8693A;
+    border: none;
+    color: white;
+    font-weight: 700;
+    font-family: "Newsreader", serif;
+    font-optical-sizing: auto;
+  
+    font-style: normal;
+
+  }
+  .Right-Container-Form
+  {
+    display: flex;
+    background-color: #003820;
+    padding: 30px;
+    position: sticky;
+    top: 90px;
+    color:white;
+    border-radius: 30px;
+    font-family: "Newsreader", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    z-index: 99;
+  }
+  input
+  {
+     width:300px;
+     padding: 20px;
+     border-radius: 10px;
+     margin-top: 10px;
+     font-family: "Newsreader", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color:#7A7A7A;
+
+  }
+  .Top-right-Container
+  {
+    width: 420px;
+    margin-left: 850px;
+    margin-top:-910px;
+    height: 1000px;
+
+  }
+
+</style>
+<body>
+  <div>
+    <nav class="home-top-nav">
+        <ul>
+            <li>OUR CONTACT NUMBERS:</li>
+            <li><a href="">+91 9821573537 (IVR)</a></li>
+            <li><a href="">+91 7997951250</a></li>
+            <li><a href="">+91 7043105310</a></li>
+            <li><a href="">+91 8096951618 (WhatsApp)</a></li>
+        </ul>
+    </nav>
+  </div>
+  <nav class="home-nav2">
+    <ul class="home-ul">
+      <li class="nav-item"><img src="https://thehiddencastle.in/wp-content/uploads/2022/11/THC_Logo.png" alt="logo" height="80" width="100" class="img"></li>
+      <li class="nav-item"><a href="index.html">HOME</a></li>
+      <li class="nav-item nav-item_list"><a href=""> STAY@ THC <i class="fa-solid fa-angle-down"></i></a>
+        <ul class="dropdown">
+          <li><a href="normal.html">NORMAL ROOMS</a></li>
+          <li><a href="luxury.html">LUXURY ROOMS</a></li>
+        </ul>
+      </li>
+      <li class="nav-item nav-item_list"><a href="">OFFERS<i class="fa-solid fa-angle-down"></i></a>
+        <ul class="dropdown">
+          <li><a href="Project-Offers-Page.html">MISTY ESCAPADE</a></li>
+          <li><a href="Project-Offers-Page-2.html">STUDENT OFFERS!</a></li>
+        </ul>
+      </li>
+      <li class="nav-item"><a href="howtoreach.html">HOW TO REACH</a></li>
+      <li class="nav-item"><a href="contactus.html">CONTACT US</a></li>
+      <li class="nav-item">
+        <a href="daytrip.html"><button class="Button">DAY TRIP</button></a>
+      </li>
+</ul>
+  </nav>
+  <div class="Top-Container-1">
+    <h1>Spectacular Student Offer - More the Merrier</h1>
+    <h3>Unlock student exclusive discounts 🎟️ - Buy 5 Get 1 Ticket Absolutely Free! 🎉</h3>
+    <img src="Divider-2.png" height="30px" width="60px">
+    
+  </div>
+  <div class="Top-Container-1-1">
+    <div class="Top-Container-1-1-sub-1">
+      <img src="Screenshot 2024-12-13 083050.png" height="500" width="700">
+    </div>
+    <div class="Top-Container-1-1-sub-2">
+        <h2>Student Special Day Trip</h2>
+       <h3>Check-in Time : 10 AM
+        Check-out Time : 6 PM</h3>
+        <img src="Divider-2.png">
+        <p class="font-green">Calling all students! Get ready for the ultimate adventure at The Hidden Castle with our exclusive Student Offer. Experience a day full of excitement, laughter, and memories as you delve into a wide range of aqua and adventure activities. Zip-line through the air, conquer the commando net, and challenge your friends to thrilling aqua sports. The fun doesn’t stop there – enjoy a refreshing welcome drink, savor a delicious lunch, and indulge in high tea with a mouthwatering veg snack. Gather your friends and make the most of this unforgettable offer. The more friends, the merrier the adventure! Don’t miss out on this incredible opportunity to create memories that will last a lifetime at The Hidden Castle.</p>
+    </div>
+  </div>
+  <div class="Top-right-Container">
+    <div class="Right-Container-Form">
+      <form>
+        <label>Booking Date</label>
+        <input placeholder="Select check-in Date" type="date">
+        <br>
+        <br>
+        <label>Persons</label><br>
+        <input placeholder="Enter Number Persons" type="number">
+        <br>
+        <br>
+        <label>Name</label><br>
+        <input placeholder="Enter Your name" type="text">
+        <br>
+        <br>
+        <label>Mobile Number</label><br>
+        <input placeholder="Enter your Mobile Number" type="tel">
+        <br>
+        <br>
+        <button class="Button-Form">Enquire Now</button>
+      </form>
+    </div>
+  </div>
+  <div class="Middle-Conatier-2-0">
+    <h2>FAQ</h2>
+    <details>
+      <Summary>Who is eligible for this offer?</Summary>
+      <p>College students carrying a valid college ID card are eligible for this offer.</p>
+    </details>
+    <hr>
+    <details>
+      <Summary>When is this offer valid?</Summary>
+      <p>This offer is valid on all weekdays and non-holiday days or special days. For ex., this offer is not valid on New Year, Valentines’ Day, Holi, etc. Speak to our customer service team to know more about this offer.</p>
+    </details>
+    <hr>
+    <details>
+      <Summary>Should I carry a hardcopy of my ID card?</Summary>
+      <p>Yes, all the guests availing this offer must carry a student ID card to get entry into the resort.</p>
+    </details>
+    <hr>
+    <details>
+      <Summary>Is this offer applicable to school students?</Summary>
+      <p>No this offer is not applicable to school students. </p>
+    </details>
+
+  </div>
+  <div class="Middle-Conatier-2">
+    <h1 class="font-black" style="text-align: center;">Activities Galore</h1>
+    <div class="Pictures-Container-1">
+      <figure>
+        <img src="Picture-2.jpg" class="Pictures-offers-page-1">
+        <figcaption>Magic Show</figcaption>
+      </figure>
+      <figure>
+        <img src="Picture-1.jpg" class="Pictures-offers-page-1">
+          <figcaption>Cycling</figcaption>
+        </figure>
+        <figure>
+          <img src="Picture-5.jpg" class="Pictures-offers-page-1">
+          <figcaption>Archary</figcaption>
+        </figure>
+      <figure>
+        <img src="Picture-4.jpg" class="Pictures-offers-page-1">
+        <figcaption>Rain Dance</figcaption>
+      </figure>
+      <figure>
+        <img src="Picture-3.jpg" class="Pictures-offers-page-1">
+        <figcaption>Mini Tunnel</figcaption>
+      </figure>
+    </div>
+    </div>
+  </div>
+  <div class="Bottom-Conatier-3">
+    <div class="Bottom-Conatier-3-sub-1">
+      <h2 class="font-black">What's Included</h2>
+      <ul class="Circel-dot">
+          <li><i class="fa-regular fa-circle-dot"></i>&nbsp Access to all rides and games</li>
+          <li><i class="fa-regular fa-circle-dot"></i>&nbsp  Complimentary welcome drink,Lunch high tea and one veg snack</li>
+          <li><i class="fa-regular fa-circle-dot"></i>&nbsp Rain dance</li>
+          <li><i class="fa-regular fa-circle-dot"></i>&nbsp Swimming Pool</li>
+          <li><i class="fa-regular fa-circle-dot"></i>&nbsp Aqua Safari</li>
+          <li><i class="fa-regular fa-circle-dot"></i>&nbsp Magic Show</li>
+          <li><i class="fa-regular fa-circle-dot"></i>&nbsp Museum and more...</li>
+      </ul>
+    </div>
+    <div class="Bottom-Conatier-3-sub-2">
+      <h2 class="font-black">Key Attractions</h2>
+      <ul class="Circel-dot">
+        <li><i class="fa-regular fa-circle-dot"></i>&nbsp;Palatial Castle</li>
+          <li><i class="fa-regular fa-circle-dot"></i>&nbsp; Breathtaking Views</li>
+          <li><i class="fa-regular fa-circle-dot"></i>&nbsp; Plethora of Activities</li>
+          <li><i class="fa-regular fa-circle-dot"></i>&nbsp; Aqua Sports</li>
+          <li><i class="fa-regular fa-circle-dot"></i>&nbsp; Adventure Circuit</li>
+          <li><i class="fa-regular fa-circle-dot"></i>&nbsp; Sumptuous Dining</li>
+      </ul>
+    </div>
+    <div class="Bottom-Conatier-3-sub-3">
+      <h2 class="font-black">Terms of Service</h2>
+      <ul class="Circel-dot">
+        <li><i class="fa-regular fa-circle-dot"></i>&nbsp;
+          Offer valid only for weekdays. Offer not applicable for festivals, special days or events such as New Year.</li>
+          <li><i class="fa-regular fa-circle-dot"></i>&nbsp; No exchange or refund done after the tickets are booked</li>
+          <li><i class="fa-regular fa-circle-dot"></i>&nbsp; DSLRs or any interchangeable lens cameras are not permitted</li>
+          <li><i class="fa-regular fa-circle-dot"></i>&nbsp;   Food, snacks or beverages from outside are strictly prohibited</li>
+          <li><i class="fa-regular fa-circle-dot"></i>&nbsp;Carrying your college ID and government issued ID proof is mandatory</li>
+      </ul>
+
+    </div>
+  </div>
+
+</body>
+  <footer style="background-color: #003820;">
+    <div class="div-end-home">
+      <div>
+        <table>
+          <tr>
+            <td>
+              <img src="https://thehiddencastle.in/wp-content/uploads/2022/11/Shield_Logo.png" width="120" height="150" alt="image">
+            </td>
+            <td class="Footer-Content">Welcome to The Hidden Castle, an imposing castle-themed <br>resort a one-hour’s smooth drive away from Hyderabad.<br> Sprawling majestically over 30 acres of untamed terrain, it is <br>just what adventure and nature lovers dream of.</td>
+            <td><b style="font-size: 22px;font-weight: 400;">Quick Links</b><br><br>
+            <div class="fall">Home</div><br>
+            <div class="fall">Day Trip</div><br>
+            <div class="fall">Contact Us</div><br>
+            <div class="fall">How to Reach</div></td>
+            <td style="font-size: 22px;font-weight: 400;">Follow us on <br>Social Media<br><br><a href="https://www.facebook.com/TheHiddenCastle"><i class="fa-brands fa-facebook-f"></i></a>&nbsp;&nbsp;&nbsp;<a href="https://www.instagram.com/thehiddencastlein/"><i class="fa-brands fa-instagram"></i></a>&nbsp;&nbsp;&nbsp;<a href="https://in.pinterest.com/thehiddencastle/"><i class="fa-solid fa-leaf"></i></a></td>
+          </tr>
+        </table>
+      </div>
+      <hr width="800px">
+      <p class="home-end">Copyright © 2015 – 2024 | The Hidden Castle | La McLean Hotels & Resorts Pvt. Ltd.</p>
+    </div>
+  </footer>
+</html>
